@@ -73,8 +73,6 @@ const Committee: React.FC = () => {
 
             <p className="font-bold text-[#C9A24D] text-center text-lg">Come for the science, experience the spirituality, and return inspired.</p>
 
-            <p>We look forward to welcoming you to JASICON 2026 in Deoghar.</p>
-
             <div className="pt-8 text-center">
               <p className="font-bold text-xl text-[#C9A24D] mb-2">Long Live ASI</p>
               <p className="font-medium text-[#9AA4B2]">Organising Committee</p>
