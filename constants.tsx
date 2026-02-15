@@ -13,9 +13,9 @@ export const COLORS = {
 };
 
 export const COMMITTEE: CommitteeMember[] = [
-  { id: 'c1', name: 'Dr. Sanjay Kumar', role: 'Chairman, ASI (Jharkhand)', imageUrl: '/assets/Sanjay.jpeg' },
-  { id: 'c2', name: 'Dr. Rajesh Kumar Singh', role: 'Secretary, ASI (Jharkhand)', imageUrl: '/assets/rajesh.png' },
-  { id: 'c3', name: 'Dr. B. N. Prasad', role: 'Treasurer, ASI (Jharkhand)', imageUrl: '/assets/Prasad.jpeg' },
+  { id: 'c1', name: 'Dr. Jugal Kishor Choudhary', role: 'Chairman', imageUrl: '/assets/Jugal_kishore.png' },
+  { id: 'c2', name: 'Dr. Kumar Gaurav', role: 'Secretary', imageUrl: '/assets/rajesh.png' },
+  { id: 'c3', name: 'Dr. Vijay Kumar', role: 'Treasurer', imageUrl: '/assets/Vijay_kumar.png' },
   //   { id: 'c4', name: 'Dr. Jugal Kishore Choudhary', role: 'Organizing Chairman', imageUrl: 'https://placehold.co/400x400?text=Photo' },
   //   { id: 'c5', name: 'Dr. Kumar Gourav', role: 'Organizing Secretary', imageUrl: 'https://placehold.co/400x400?text=Photo' },
   //   { id: 'c6', name: 'Dr. Vijay Kumar', role: 'Organizing Treasurer', imageUrl: '/assets/vijay.png' }
