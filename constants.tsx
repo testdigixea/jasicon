@@ -2,6 +2,10 @@
 import React from 'react';
 import { FacultyMember, CommitteeMember, ProgramSession, Workshop, ExtendedCommitteeSection } from './types';
 
+export const getAssetPath = (path: string) => {
+  return `${import.meta.env.BASE_URL}${path.startsWith('/') ? path.slice(1) : path}`;
+};
+
 export const COLORS = {
   bg: '#0B0F14',
   surface: '#121826',
@@ -13,9 +17,9 @@ export const COLORS = {
 };
 
 export const COMMITTEE: CommitteeMember[] = [
-  { id: 'c1', name: 'Dr. Jugal Kishor Choudhary', role: 'Chairman', imageUrl: '/assets/Jugal_kishore.png' },
-  { id: 'c2', name: 'Dr. Kumar Gaurav', role: 'Secretary', imageUrl: '/assets/rajesh.png' },
-  { id: 'c3', name: 'Dr. Vijay Kumar', role: 'Treasurer', imageUrl: '/assets/Vijay_kumar.png' },
+  { id: 'c1', name: 'Dr. Jugal Kishor Choudhary', role: 'Chairman', imageUrl: getAssetPath('/assets/Jugal_kishore.png') },
+  { id: 'c2', name: 'Dr. Kumar Gaurav', role: 'Secretary', imageUrl: getAssetPath('/assets/rajesh.png') },
+  { id: 'c3', name: 'Dr. Vijay Kumar', role: 'Treasurer', imageUrl: getAssetPath('/assets/Vijay_kumar.png') },
   //   { id: 'c4', name: 'Dr. Jugal Kishore Choudhary', role: 'Organizing Chairman', imageUrl: 'https://placehold.co/400x400?text=Photo' },
   //   { id: 'c5', name: 'Dr. Kumar Gourav', role: 'Organizing Secretary', imageUrl: 'https://placehold.co/400x400?text=Photo' },
   //   { id: 'c6', name: 'Dr. Vijay Kumar', role: 'Organizing Treasurer', imageUrl: '/assets/vijay.png' }

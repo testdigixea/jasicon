@@ -2,20 +2,21 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, ArrowLeft, ArrowRight } from 'lucide-react';
+import { getAssetPath } from '../constants';
 
 const HERO_IMAGES = [
   {
-    url: "/assets/a.png",
+    url: getAssetPath("/assets/a.png"),
     title: "The Gateway",
     sub: "Deoghar International Airport"
   },
   {
-    url: "/assets/b.png",
+    url: getAssetPath("/assets/b.png"),
     title: "Our Heritage",
     sub: "Baidyanath Jyotirlinga Mandir"
   },
   {
-    url: "/assets/c.jpg",
+    url: getAssetPath("/assets/c.jpg"),
     title: "The Destination",
     sub: "Scenic Beauty of Deoghar"
   }

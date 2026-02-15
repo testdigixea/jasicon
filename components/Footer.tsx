@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold serif text-[#C9A24D] mb-4">JASICON 2026</h3>
             <p className="text-[#9AA4B2] max-w-md leading-relaxed">
-              The premier national gathering for obstetrics and gynecology professionals. Dedicated to advancing clinical practice, research, and surgical excellence in women's healthcare.
+              The premier national gathering for surgical professionals at JASICON 2026, focused on advancing operative skills, innovative techniques, clinical excellence, and research to improve patient care and surgical outcomes.
             </p>
 
           </div>

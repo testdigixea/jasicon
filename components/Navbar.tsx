@@ -2,10 +2,17 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../App';
+import { getAssetPath } from '../constants';
 import { Menu, X, User as UserIcon, LogOut, ChevronDown, LayoutDashboard, LogIn } from 'lucide-react';
+
+
 
 const Navbar: React.FC = () => {
   const { user, logout } = useAuth();
+  // ... (lines 10-56)
+  <Link to="/" className="flex items-center group shrink-0">
+    <img src={getAssetPath("/assets/logo.png")} alt="Jasicon 2026" className="h-12 sm:h-16 w-auto object-contain transition-opacity hover:opacity-90" />
+  </Link>
   const [isOpen, setIsOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const userMenuRef = useRef<HTMLDivElement>(null);
@@ -55,7 +62,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-[1440px] mx-auto px-4 sm:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <Link to="/" className="flex items-center group shrink-0">
-            <img src="/assets/logo.png" alt="Jasicon 2026" className="h-12 sm:h-16 w-auto object-contain transition-opacity hover:opacity-90" />
+            <img src={getAssetPath("/assets/logo.png")} alt="Jasicon 2026" className="h-12 sm:h-16 w-auto object-contain transition-opacity hover:opacity-90" />
           </Link>
 
           {/* Desktop Nav */}
