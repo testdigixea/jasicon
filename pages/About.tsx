@@ -36,86 +36,59 @@ const About: React.FC = () => {
                 "Pioneering the Future of Surgical Excellence Through Innovation."
               </p>
               <p>
-                JASICON 2026 is a prestigious state surgical conference that brings together surgeons, academicians, and postgraduate residents from across the state and the country. Scheduled to be held at Maiha Garden, Deoghar from 20th to 22nd November 2026, the conference represents a collective commitment to excellence, innovation, and advancement in the field of surgery.
+                It gives us immense pleasure to welcome you to JASICON 2026, to be held at Maiha Garden, Deoghar, from 20th to 22nd November 2026. This prestigious conference will bring together surgeons from across Jharkhand and the country, reflecting our shared commitment to excellence, innovation, and advancement in the field of surgery.
               </p>
               <p>
-                This conference is designed not only as an academic gathering but also as a dynamic platform to explore the evolving landscape of surgical care. It aims to showcase cutting-edge surgical techniques, encourage meaningful discussions, and address real-world challenges faced in everyday clinical practice.
+                More than an academic gathering, JASICON 2026 is envisioned as a dynamic platform to reflect on the evolving landscape of surgical care, explore cutting-edge techniques, and deliberate on challenges that impact daily clinical practice. The conference aims to foster collaboration among surgeons from diverse backgrounds and encourage meaningful discussions that contribute to improved patient outcomes across the state.
               </p>
               <p>
-                A special focus of JASICON 2026 is dedicated to postgraduate surgical residents and young surgeons, offering them an enriching academic environment with updated knowledge, practical insights, and exposure to emerging trends in modern surgical science.
+                A special focus of JASICON 2026 will be on postgraduate residents in surgery, offering them updated knowledge, practical insights, and exposure to emerging trends in surgical science. Through structured academic sessions, interactive discussions, and expert-led deliberations, the conference seeks to empower young surgeons and nurture future leaders in the field.
               </p>
-            </div>
-          </div>
+              <p>
+                Beyond academics, the conference will also feature thoughtfully curated social and cultural engagements, creating a perfect blend of learning, interaction, and camaraderie. JASICON 2026 aspires to be a memorable milestone in our surgical journey—a space for learning, inspiration, and shared experiences.
+              </p>
+              <p className="font-bold text-[#C9A24D]">
+                Let’s learn, share, and grow together. Don’t miss it!
+              </p>
 
-          <div className="grid grid-cols-2 gap-4 md:gap-8">
-            <div className="p-6 md:p-8 bg-[#121826] rounded-2xl md:rounded-3xl border border-[#1F2937] hover:border-[#C9A24D]/50 transition-all group">
-              <h5 className="text-3xl md:text-5xl font-bold text-[#C9A24D] group-hover:scale-110 transition-transform">500+</h5>
-              <p className="text-[8px] md:text-xs uppercase tracking-[0.2em] text-[#9AA4B2] mt-2 font-bold">Global Delegates</p>
-            </div>
-            <div className="p-6 md:p-8 bg-[#121826] rounded-2xl md:rounded-3xl border border-[#1F2937] hover:border-[#C9A24D]/50 transition-all group">
-              <h5 className="text-3xl md:text-5xl font-bold text-[#C9A24D] group-hover:scale-110 transition-transform">150+</h5>
-              <p className="text-[8px] md:text-xs uppercase tracking-[0.2em] text-[#9AA4B2] mt-2 font-bold">Scientific Experts</p>
+              <div className="pt-8">
+                <h2 className="text-3xl md:text-5xl font-bold serif text-[#C9A24D] mb-6">About ASI India</h2>
+                <div className="w-24 h-1 bg-[#C9A24D]/30 mb-8"></div>
+
+                <p>
+                  The Association of Surgeons of India (ASI) was established in 1938 with the vision of bringing surgeons together to share knowledge, exchange experiences, and enhance surgical skills. From a humble beginning with just 112 members, ASI has grown into the largest association of surgeons in India, with a membership exceeding 35,600+ and continuously expanding.
+                </p>
+                <p className="mt-4">
+                  ASI operates through 26 state chapters and multiple city branches across the country, covering most states and union territories. The association is devoted to the noble cause of relieving human suffering through dedicated surgical service. It works tirelessly to bring advanced surgical techniques and education even to the remotest parts of the country.
+                </p>
+
+                <div className="grid md:grid-cols-2 gap-8 mt-8">
+                  <div className="p-6 bg-[#121826] rounded-2xl border-l-4 border-[#C9A24D]">
+                    <p className="text-2xl md:text-3xl serif italic text-[#C9A24D] font-bold">"Vayam Sevaamahe"</p>
+                    <p className="text-[#9AA4B2] mt-2 uppercase tracking-widest text-xs font-bold">— We are for service</p>
+                  </div>
+
+                  <div className="p-6 bg-[#121826] rounded-2xl border border-[#1F2937]">
+                    <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                      <ShieldCheck className="text-[#C9A24D]" size={20} />
+                      Specialty Sections
+                    </h3>
+                    <ul className="text-sm text-[#9AA4B2] space-y-1">
+                      <li>Colo-rectal Surgery</li>
+                      <li>Endocrine Surgery</li>
+                      <li>Genito-urinary Surgery</li>
+                      <li>Minimal Access Surgery</li>
+                      <li>Trauma & Critical Care</li>
+                      <li>...and 7 more specialties</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
-
-      {/* About ASI India Section */}
-      <section className="mb-20 md:mb-32 animate-fade-in-up delay-2">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 md:gap-16 items-start">
-          <div className="lg:col-span-12 text-center mb-8">
-            <h2 className="text-3xl md:text-5xl font-bold serif text-[#C9A24D] mb-6">About ASI India</h2>
-            <div className="w-24 h-1 bg-[#C9A24D]/30 mx-auto rounded-full mb-8"></div>
-          </div>
-
-          <div className="lg:col-span-7 space-y-6 text-[#E6EAF0] text-sm md:text-lg leading-relaxed">
-            <p>
-              The Association of Surgeons of India (ASI) was established in 1938 with the vision of bringing surgeons together to share knowledge, exchange experiences, and enhance surgical skills. From a humble beginning with just 112 members, ASI has grown into the largest association of surgeons in India, with a membership exceeding 35,600+ and continuously expanding.
-            </p>
-            <p>
-              ASI operates through 26 state chapters and multiple city branches across the country, covering most states and union territories. The association is devoted to the noble cause of relieving human suffering through dedicated surgical service. It works tirelessly to bring advanced surgical techniques and education even to the remotest parts of the country.
-            </p>
-            <div className="mt-8 p-6 bg-[#121826] rounded-2xl border-l-4 border-[#C9A24D]">
-              <p className="text-2xl md:text-3xl serif italic text-[#C9A24D] font-bold">"Vayam Sevaamahe"</p>
-              <p className="text-[#9AA4B2] mt-2 uppercase tracking-widest text-xs font-bold">— We are for service</p>
-            </div>
-          </div>
-
-          <div className="lg:col-span-5 bg-[#121826] p-8 md:p-10 rounded-3xl border border-[#1F2937] relative overflow-hidden">
-            <div className="absolute top-0 right-0 p-32 bg-[#C9A24D]/5 rounded-full blur-3xl -mr-16 -mt-16"></div>
-
-            <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-3">
-              <ShieldCheck className="text-[#C9A24D]" size={24} />
-              Specialty Sections
-            </h3>
-
-            <ul className="space-y-3">
-              {[
-                "Colo-rectal Surgery", "Endocrine Surgery", "Genito-urinary Surgery",
-                "Minimal Access Surgery", "Breast Surgery", "Thoracic & Cardiovascular",
-                "Surgical Oncology", "Trauma & Critical Care", "Rural Surgery",
-                "Armed Forces Surgery"
-              ].map((item, idx) => (
-                <li key={idx} className="flex items-center gap-3 text-[#9AA4B2] text-sm hover:text-[#C9A24D] transition-colors">
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#C9A24D]"></div>
-                  {item}
-                </li>
-              ))}
-            </ul>
-
-            <div className="mt-8 pt-8 border-t border-[#1F2937] grid grid-cols-2 gap-4">
-              <div>
-                <span className="block text-3xl font-bold text-white">1938</span>
-                <span className="text-[10px] uppercase text-[#9AA4B2] tracking-wider">Established</span>
-              </div>
-              <div>
-                <span className="block text-3xl font-bold text-white">35k+</span>
-                <span className="text-[10px] uppercase text-[#9AA4B2] tracking-wider">Members</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Dedicated Interactive Large Map Section */}
       <section className="mb-20 md:mb-32 animate-fade-in-up delay-3">
