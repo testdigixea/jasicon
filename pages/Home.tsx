@@ -98,7 +98,7 @@ const Home: React.FC = () => {
           <div className="space-y-4 md:space-y-6">
             <div className="animate-blur-fade delay-1">
               <h2 className="text-xl sm:text-3xl md:text-5xl font-bold serif text-[#C9A24D] tracking-[0.15em] uppercase opacity-90 drop-shadow-lg">
-                Welcome to Deogarh
+                Welcome to Deoghar
               </h2>
             </div>
             <h1 className="text-4xl sm:text-7xl md:text-[10rem] font-bold serif leading-none text-white animate-blur-fade drop-shadow-2xl">
