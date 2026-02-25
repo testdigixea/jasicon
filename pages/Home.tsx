@@ -118,13 +118,13 @@ const Home: React.FC = () => {
               to="/registration"
               className="w-full sm:w-auto bg-[#C9A24D] text-[#0B0F14] px-10 py-4 md:py-5 rounded-full font-black text-[10px] md:text-[11px] uppercase tracking-widest hover:bg-white transition-all transform hover:scale-105 flex items-center justify-center btn-shine shadow-xl"
             >
-              Secure Your Seat
+              Register
             </Link>
             <Link
               to="/program"
               className="w-full sm:w-auto bg-white/10 border border-white/20 text-white px-10 py-4 md:py-5 rounded-full font-black text-[10px] md:text-[11px] uppercase tracking-widest hover:bg-white hover:text-[#0B0F14] transition-all flex items-center justify-center group backdrop-blur-md"
             >
-              Program Guide
+              Program at a glance
               <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
             </Link>
           </div>
