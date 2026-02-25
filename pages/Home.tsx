@@ -95,8 +95,13 @@ const Home: React.FC = () => {
             </div>
           </div>
 
-          <div className="space-y-2 md:space-y-4">
-            <h1 className="text-3xl sm:text-6xl md:text-9xl font-bold serif leading-tight text-white animate-blur-fade drop-shadow-2xl">
+          <div className="space-y-4 md:space-y-6">
+            <div className="animate-blur-fade delay-1">
+              <h2 className="text-xl sm:text-3xl md:text-5xl font-bold serif text-[#C9A24D] tracking-[0.15em] uppercase opacity-90 drop-shadow-lg">
+                Welcome to Deogarh
+              </h2>
+            </div>
+            <h1 className="text-4xl sm:text-7xl md:text-[10rem] font-bold serif leading-none text-white animate-blur-fade drop-shadow-2xl">
               JASICON <span className="text-[#C9A24D]">2026</span>
             </h1>
             <p className="text-base sm:text-2xl md:text-5xl text-[#E6EAF0] font-light italic serif tracking-tight opacity-90 animate-blur-fade">
